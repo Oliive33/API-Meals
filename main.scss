@@ -194,3 +194,42 @@ body {
     }
   }
 }
+@media screen and (max-width: 768px) {
+  body h1 {
+    font-size: 3rem;
+  }
+
+  body #randomMeal {
+    margin: 10px;
+  }
+  body .randomContainer img {
+    height: 350px;
+  }
+}
+@media screen and (max-width: 400px) {
+  body {
+    padding: 0 1rem 0 1rem;
+  }
+  body h1 {
+    font-size: 2.5rem;
+  }
+  body .randomContainer {
+    width: 425px;
+  }
+  body .randomContainer h2 {
+    font-size: 1.8rem;
+  }
+
+  body .randomContainer img {
+    height: 300px;
+  }
+
+  body .meals {
+    margin: 20px;
+  }
+}
+@media screen and (max-width: 340px) {
+  body .randomContainer img {
+    height: 250px;
+  }
+}
